@@ -18,7 +18,7 @@ The dataset includes the following variables:
 - total_price: Total sales amount in USD
 In this dataset, the total_price variable represents the sales amount in USD, so it was used as the main measure of sales revenue in the analysis.
 
-## 3. Data Cleaning
+## 3. Data Cleaning 
 The dataset was checked for missing values and duplicate rows before analysis.
 First, missing values were reviewed across all columns. The dataset had missing values in customer_type, product_category, and quantity. Since these columns are important for analyzing customer behavior, product performance, and sales volume, rows with missing values were removed to improve data completeness and reliability.
 Second, duplicate rows were checked using the Remove Duplicates function in Excel. Three duplicate rows were identified and removed. This step helps avoid counting the same transaction more than once.
@@ -54,13 +54,5 @@ These charts help present the findings clearly and make the analysis easier to u
 
 ![Total Sales by Customer Type](chart_customer_type.png)
 
-## 7. Tools Used
-- Microsoft Excel
-- Data Analysis ToolPak
-- Descriptive Statistics
-- PivotTable
-- PivotChart
-- GitHub
-
-## 8. Conclusion
+## 7. Conclusion
 Overall, this project shows how basic business analytics techniques can be used to understand supermarket sales data. Through data cleaning, descriptive statistics, PivotTables, and visualizations, the analysis provides useful insights into product category performance and customer purchasing behavior. The findings suggest that Fruits are the strongest product category in terms of sales revenue, while Member customers play an important role in total supermarket sales. These insights can support better business decisions related to inventory planning, promotion strategies, and customer loyalty programs.
